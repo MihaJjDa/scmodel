@@ -1,0 +1,94 @@
+Sender: LSF System <lsfadmin@polus-c2-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 70889: <mpiexec ./test1 32768 1> in cluster <MSUCluster> Done
+
+Job <mpiexec ./test1 32768 1> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel18-624-13> in cluster <MSUCluster> at Sat Nov 24 08:13:42 2018
+Job was executed on host(s) <polus-c2-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skmodel18-624-13> in cluster <MSUCluster> at Sat Nov 24 08:13:42 2018
+</home_edu/edu-cmc-skmodel18-624/edu-cmc-skmodel18-624-13> was used as the home directory.
+</home_edu/edu-cmc-skmodel18-624/edu-cmc-skmodel18-624-13/home> was used as the working directory.
+Started at Sat Nov 24 08:13:42 2018
+Terminated at Sat Nov 24 08:15:38 2018
+Results reported at Sat Nov 24 08:15:38 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+mpiexec ./test1 32768 1
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   114.76 sec.
+    Max Memory :                                 40985 MB
+    Average Memory :                             31654.94 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                11
+    Run time :                                   116 sec.
+    Turnaround time :                            116 sec.
+
+The output (if any) follows:
+
+HALLO
+ARGC 3
+NUM_GPU 1
+ARGC 3
+1
+2
+3
+4
+6.1
+6.2
+INFO -113
+TIME 0.003800
+Sender: LSF System <lsfadmin@polus-c4-ib.bmc.hpc.cs.msu.ru>
+Subject: Job 70890: <mpiexec ./test1 32768 1> in cluster <MSUCluster> Done
+
+Job <mpiexec ./test1 32768 1> was submitted from host <polus-ib.bmc.hpc.cs.msu.ru> by user <edu-cmc-skmodel18-624-13> in cluster <MSUCluster> at Sat Nov 24 08:16:31 2018
+Job was executed on host(s) <polus-c4-ib.bmc.hpc.cs.msu.ru>, in queue <normal>, as user <edu-cmc-skmodel18-624-13> in cluster <MSUCluster> at Sat Nov 24 08:16:32 2018
+</home_edu/edu-cmc-skmodel18-624/edu-cmc-skmodel18-624-13> was used as the home directory.
+</home_edu/edu-cmc-skmodel18-624/edu-cmc-skmodel18-624-13/home> was used as the working directory.
+Started at Sat Nov 24 08:16:32 2018
+Terminated at Sat Nov 24 08:18:28 2018
+Results reported at Sat Nov 24 08:18:28 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+mpiexec ./test1 32768 1
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   115.01 sec.
+    Max Memory :                                 40985 MB
+    Average Memory :                             31898.59 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                11
+    Run time :                                   115 sec.
+    Turnaround time :                            117 sec.
+
+The output (if any) follows:
+
+HALLO
+ARGC 3
+NUM_GPU 1
+ARGC 3
+1
+2
+3
+4
+6.1
+6.2
+INFO -113
+TIME 0.003814
